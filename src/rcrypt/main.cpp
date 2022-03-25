@@ -35,7 +35,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1e.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1e.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete ence;
@@ -69,7 +69,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1d.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1d.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete decd;
@@ -103,7 +103,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1h.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1h.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete hashe;
@@ -150,7 +150,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1e.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1e.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete ence;
@@ -184,7 +184,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1d.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1d.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete decd;
@@ -218,7 +218,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1h.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1h.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete hashe;
@@ -265,7 +265,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1e.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1e.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete ence;
@@ -299,7 +299,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1d.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1d.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete decd;
@@ -333,7 +333,7 @@ int main() {
                 auto duration = std::chrono::system_clock::now() - start;
 
                 if (i >= 60) {
-                    data1h.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 10000.0);
+                    data1h.push_back(std::chrono::duration_cast<std::chrono::microseconds>(duration).count() / 1000000.0);
                 }
 
                 delete hashe;
